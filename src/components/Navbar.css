@@ -1,0 +1,20 @@
+.microsoft {
+  width: 110px;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid black;
+  display: inline-block;
+}
+
+.nav-item .dropdown {
+  background-color: lightgrey;
+}
+
+.dropdown-menu {
+  background-color: lightgrey;
+}
+
+.dropdown-item:hover {
+  text-decoration: underline;
+}
