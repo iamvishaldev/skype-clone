@@ -4,12 +4,12 @@ import "../components/Navbar.css";
 const Navbar = () => {
   return (
     <div className="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#">
           <img
             src="https://secure.skypeassets.com/content/dam/scom/images/logos/re1mu3b.png"
-            alt="microsoft"
-            className="microsoft mr-5"
+            alt="logo"
+            className="micrologo mr-3"
           />
         </a>
         <button
@@ -27,8 +27,8 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" ml-3 href="">
-                <b>Skype</b>
+              <a class="nav-link" href="#">
+                <b style={{ fontSize: 18 }}>Skype</b>
               </a>
             </li>
             <li class="nav-item">
@@ -51,7 +51,6 @@ const Navbar = () => {
                 Features
               </a>
             </li>
-
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -75,13 +74,10 @@ const Navbar = () => {
                   Skype with Alexa
                 </a>
                 <a class="dropdown-item" href="#">
-                  Skype with Alexa
+                  Skype for content Creator
                 </a>
                 <a class="dropdown-item" href="#">
-                  Skype for content creators
-                </a>
-                <a class="dropdown-item" href="#">
-                  Skype for Business
+                  Skype For Business
                 </a>
               </div>
             </li>
@@ -95,14 +91,14 @@ const Navbar = () => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Get help
+                Get Help
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">
                   Skype Support
                 </a>
                 <a class="dropdown-item" href="#">
-                  Blogs
+                  Blog
                 </a>
                 <a class="dropdown-item" href="#">
                   Community
@@ -113,33 +109,16 @@ const Navbar = () => {
               </div>
             </li>
           </ul>
-
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">
                 Hosting a meeting
               </a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
+            <li class="nav-item">
+              <a class="nav-link" href="#">
                 Sign in
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">
-                  My Account
-                </a>
-                <a class="dropdown-item" href="#">
-                  Use Skype online
-                </a>
-              </div>
             </li>
           </ul>
         </div>

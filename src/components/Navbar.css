@@ -1,5 +1,11 @@
-.microsoft {
-  width: 110px;
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+.micrologo {
+  width: 100px;
 }
 
 .nav-link:hover {
@@ -7,12 +13,12 @@
   display: inline-block;
 }
 
-.nav-item .dropdown {
-  background-color: lightgrey;
+.nav-item.dropdown {
+  background-color: lightgray;
 }
 
 .dropdown-menu {
-  background-color: lightgrey;
+  background-color: lightgray;
 }
 
 .dropdown-item:hover {

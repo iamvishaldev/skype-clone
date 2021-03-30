@@ -1,0 +1,24 @@
+.jumbotron {
+  background-color: "#fff";
+}
+
+.showcase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.skypeSocialMedia {
+  display: flex;
+  flex-direction: row;
+}
+.skypeSocialMediaRight {
+  display: flex;
+  flex-direction: row;
+}
+ol,
+ul {
+  list-style: none;
+  text-decoration: underline;
+}
